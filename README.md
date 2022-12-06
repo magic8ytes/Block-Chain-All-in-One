@@ -5,6 +5,11 @@ This repositories is for recording all the results by learning BlockChain.
 
 ### MISC
 
+#### List of Scripts
+
+
+#### 1.Crack0Address-ByGolang
+
 address.go is a golang code for generate ethernum network address start with 0x00000000
 
 ```
@@ -32,12 +37,12 @@ $ ./address
 Exploiting
 
 ```sh
-forge test --contracts ./src/test/APC_exp.sol -vvv
+forge test --contracts ./src/test/APC_exp.t.sol -vvv
 ```
 
 #### Contract
 
-[APC_exp.sol](DefiHackPoc/src/test/APC_exp.sol)
+[APC_exp.sol](DefiHackPoc/src/test/APC_exp.t.sol)
 
 #### Link reference
 
