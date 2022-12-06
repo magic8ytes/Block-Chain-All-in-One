@@ -3,10 +3,9 @@
 This repositories is for recording all the results by learning BlockChain.
 
 
-### MISC
+## MISC
 
 #### List of Scripts
-
 
 #### 1.Crack0Address-ByGolang
 
@@ -32,7 +31,7 @@ $ ./address
 
 ---
 #### 20221201 - APC - FlashLoan & price manipulation
-#### Lost: $6K
+#### Lost:  $6K
 
 Exploiting
 
