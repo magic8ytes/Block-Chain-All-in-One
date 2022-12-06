@@ -1,0 +1,9 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+remappings = ['forge-std/=lib/forge-std/src/']
+
+rpc_endpoints = { ankr_mainnet = "https://rpc.ankr.com/eth", ankr_bsc = "https://rpc.ankr.com/bsc", ankr_polygon = "https://rpc.ankr.com/polygon"}
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
