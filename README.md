@@ -28,8 +28,25 @@ $ ./address
 ### List of Exploits
 
 [20221201 APC](#20221201---apc---flashloan--price-manipulation)
+[20221212 Mev](#20221212---mev---flashloan--DSPFlashLoanCall-Lack of Permission Check)
 
 ---
+#### 20221212 - Mev - FlashLoan DSPFlashLoanCall Lack of Permission Check
+#### Lost:  $1.3K
+
+Exploiting
+
+```sh
+forge test --contracts ./src/test/Mev_Lack_Permission_Check_exp.t.sol -vvv
+```
+#### Contract
+
+[APC_exp.sol](DefiHackPoc/src/test/Mev_Lack_Permission_Check_exp.t.sol)
+
+#### Link reference
+
+https://etherscan.io/tx/0x313d23bdd9277717e3088f32c976479c09d4b8a94d5d94deb835d157fd0850ce
+
 #### 20221201 - APC - FlashLoan & price manipulation
 #### Lost:  $6K
 
