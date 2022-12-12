@@ -32,10 +32,9 @@ $ ./address
 [20221201 APC](#20221201---apc---flashloan--price-manipulation)
 
 ---
+
 #### 20221212 - Mev - FlashLoan DSPFlashLoanCall Lack of Permission Check
 #### Lost:  $1.3K
-
-Exploiting
 
 ```sh
 forge test --contracts ./src/test/Mev_Lack_Permission_Check_exp.t.sol -vvv
